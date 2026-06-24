@@ -35,6 +35,7 @@ function App() {
       {/* ═══════════════════════════════════════════
           HERO
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel fit">
       <section className="hero" id="hero">
         <div className="hero-bg">
           <div className="hero-grid" />
@@ -61,10 +62,12 @@ function App() {
         </div>
         <div className="hero-scroll"><span>SCROLL</span><div className="scroll-line" /></div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
-          ABOUT — no avatar, clean layout
+          ABOUT
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel overflow">
       <section className="section" id="about">
         <div className="section-label">ABOUT</div>
 
@@ -112,10 +115,12 @@ function App() {
           <span>Git</span><span>MySQL</span><span>Linux</span>
         </div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
-          PROJECTS — compact cards, no empty images
+          PROJECTS
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel overflow">
       <section className="section" id="projects">
         <div className="section-label">PROJECTS</div>
         <h2 className="section-title-big">科研与项目经历</h2>
@@ -182,10 +187,12 @@ function App() {
           </div>
         </div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
           DEMOS — video embed placeholders
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel overflow">
       <section className="section" id="demos">
         <div className="section-label">DEMO</div>
         <h2 className="section-title-big">项目演示</h2>
@@ -220,10 +227,12 @@ function App() {
           </div>
         </div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
           STRENGTHS
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel fit">
       <section className="section" id="skills">
         <div className="section-label">STRENGTHS</div>
         <h2 className="section-title-big">个人优势</h2>
@@ -270,10 +279,12 @@ function App() {
           </div>
         </div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
           AI CODING
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel overflow">
       <section className="section" id="aicoding">
         <div className="section-label">AI CODING</div>
         <h2 className="section-title-big">AI 辅助开发实践</h2>
@@ -368,10 +379,12 @@ function App() {
           </p>
         </div>
       </section>
+      </div>
 
       {/* ═══════════════════════════════════════════
           CONTACT
           ═══════════════════════════════════════════ */}
+      <div className="snap-panel fit">
       <section className="contact" id="contact">
         <div className="contact-bg"><div className="contact-glow" /></div>
         <div className="contact-content">
@@ -394,6 +407,7 @@ function App() {
           <p className="contact-footer">© 2026 乔家桢</p>
         </div>
       </section>
+      </div>
     </div>
   )
 }
