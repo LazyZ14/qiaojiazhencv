@@ -220,7 +220,7 @@ function App() {
             </h3>
             <p className="demo-desc">Streamlit 交互界面 · 文档上传 → 向量检索 → DeepSeek 流式生成 · 引用来源标注</p>
             <div className="demo-player">
-              <video controls style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',borderRadius:'10px'}}>
+              <video controls preload="none" style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',borderRadius:'10px'}}>
                 <source src={import.meta.env.BASE_URL + "rag-demo.mp4"} type="video/mp4" />
               </video>
             </div>
