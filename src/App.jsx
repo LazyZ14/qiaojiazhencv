@@ -206,9 +206,9 @@ function App() {
             </h3>
             <p className="demo-desc">自然语言输入 → 意图识别 → 个性化推荐 → A* 路径规划 → Unity AR 导航渲染，完整交互流程演示</p>
             <div className="demo-player">
-              <div className="demo-play-icon">▶</div>
-              <span className="demo-placeholder-text">录屏素材待补充</span>
-              <span className="demo-hint">放入 AR-HUD 完整流程演示视频</span>
+              <video controls preload="none" style={{position:'absolute',inset:0,width:'100%',height:'100%',objectFit:'cover',borderRadius:'10px'}}>
+                <source src={import.meta.env.BASE_URL + "ar-hud-demo.mp4"} type="video/mp4" />
+              </video>
             </div>
           </div>
 
